@@ -1,0 +1,13 @@
+image: "localhost:5443/demo-image:7"
+
+resources:
+  requests:
+    cpu: "0.1m"
+    memory: "128Mi"
+  limits:
+    cpu: "0.1m"
+    memory: "128Mi"
+
+ingress:
+  enabled: false
+  host: foo.bar
